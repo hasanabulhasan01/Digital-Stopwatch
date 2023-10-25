@@ -1,0 +1,70 @@
+body{
+    background-image: url("image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainContainer{
+    height: 380px;
+    width: 50%;
+    margin: auto;
+    margin-top: 150px;
+    /* border: 1px solid black; */
+    background-image:  linear-gradient(rgba(9, 5, 5, 0.729),rgba(8, 8, 8, 0.301));
+    border-radius: 60px;
+}
+
+.heading{
+    text-align: center;
+    color: aqua;
+    height: 40px;
+}
+
+.digits{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 65%;
+    margin: auto;
+    color: aqua;
+    font-size: xx-large;
+}
+.digitsss{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 68%;
+    margin: auto;
+    color: rgb(190, 194, 194);
+    font-size: larger;
+    margin-top: -50px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.btn{
+    height: 50px;
+    width: 140px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(84, 193, 229);
+    font-size: larger;
+    font-weight: bold;
+}
+
+/* .btn:hover{
+    width: 145px;
+} */
+
+.btn:active{
+    background-color: rgb(33, 147, 185);
+    color: aqua;
+}
+
